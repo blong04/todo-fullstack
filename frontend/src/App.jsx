@@ -1,7 +1,7 @@
 // frontend/src/App.jsx
 import { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:4000/api/tasks';
+const API_URL = 'https://todo-fullstack-hwcr.onrender.com/api/tasks';
 
 function App() {
   const [tasks, setTasks] = useState([]);
