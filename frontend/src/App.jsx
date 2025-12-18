@@ -48,6 +48,7 @@ function App() {
 
   return (
     <div style={{ maxWidth: 500, margin: '40px auto', fontFamily: 'sans-serif' }}>
+      <h1>Thi thu nam - ca 4 - Tran Bao Long</h1>
       <h1>Todo-app</h1>
       <form onSubmit={addTask} style={{ marginBottom: 20 }}>
         <input
